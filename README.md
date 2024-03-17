@@ -1,15 +1,24 @@
-# Browser Fingerprinting Resistance Research
+# Browser Fingerprinting Resistance Research (Work in Progress)
 
 This repo is a summary of current <a href="https://en.wikipedia.org/wiki/Device_fingerprint#Browser_fingerprint">browser fingerprinting</a> protections used by various browsers and their effectiveness against various fingerprinting techniques & services.
 
 # Techniques
 
-These are the known fingerprinting techniques & each browser's susceptibility to each for tracking purposes. This list is not exhaustive.
+These are known fingerprinting techniques & each browser's susceptibility to each for tracking purposes. This list is not exhaustive.
 
-|                                                                                          | Chrome        | Safari       | Edge           | Firefox       | Brave        | Opera        | Tor          |
-| ---------------------------------------------------------------------------------------- | ------------- | ------------ | -------------- | ------------- | ------------ | ------------ | ------------ |
-| <a href="https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API">Canvas</a>         | ❌ Vulnerable | ⚠️ Flawed    | ❌ Vulnerable   | ⚠️ Flawed     | ✅ Resistant | ❌ Vulnerable | ✅ Resistant |
-| <a href="https://developer.mozilla.org/en-US/docs/Web/API/OfflineAudioContext">Audio</a> | ❌ Vulnerable |              | ❌ Vulnerable   | ❌ Vulnerable | ✅ Resistant | ❌ Vulnerable | ✅ Resistant |
+|                                                                                                                    | Chrome        | Safari       | Edge           | Firefox       | Brave        | Opera        | Tor          |
+| ------------------------------------------------------------------------------------------------------------------ | ------------- | ------------ | -------------- | ------------- | ------------ | ------------ | ------------ |
+| <a href="https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API">Canvas API</a>                               | ❌ Vulnerable | ✅ Resistant | ❌ Vulnerable   | ✅ Resistant  | ✅ Resistant | ❌ Vulnerable | ✅ Resistant |
+| <a href="https://developer.mozilla.org/en-US/docs/Web/API/OffscreenCanvas">OffscreenCanvas</a>                     | ❌ Vulnerable | ⚠️ <a href="https://github.com/Joe12387/safari-canvas-fingerprinting-exploit">Flawed</a> | ❌ Vulnerable   | ⚠️ <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1885471">Flawed</a> | ✅ Resistant | ❌ Vulnerable | ✅ Resistant |
+| <a href="https://developer.mozilla.org/en-US/docs/Web/API/OfflineAudioContext">OfflineAudioContext</a>             | ❌ Vulnerable |              | ❌ Vulnerable   | ❌ Vulnerable |             | ❌ Vulnerable |  |
+| <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGLProgram">WebGLProgram</a>                           | ❌ Vulnerable | ✅ Resistant | ❌ Vulnerable   | ❌ Vulnerable | ✅ Resistant | ❌ Vulnerable | ✅ Resistant |
+| <a href="https://developer.mozilla.org/en-US/docs/Web/API/WEBGL_debug_renderer_info">WEBGL_debug_renderer_info</a> | ❌ Vulnerable | ✅ Resistant | ❌ Vulnerable   | ❌ Vulnerable | ✅ Resistant | ❌ Vulnerable | ✅ Resistant |
+| <a href="https://github.com/brave/brave-browser/issues/24681">Timing Resolution</a>                                | ❌ Vulnerable | ✅ Unaffected | ❌ Vulnerable   | ✅ Unaffected | ✅ Resistant | ❌ Vulnerable | ✅ Unaffected |
+| <a href="https://developer.mozilla.org/en-US/docs/Web/API/Navigator/hardwareConcurrency">hardwareConcurrency</a>  | ❌ Vulnerable | ✅ Resistant | ❌ Vulnerable   | ❌ Vulnerable   | ✅ Resistant | ❌ Vulnerable | ✅ Resistant |
+| <a href="https://developer.mozilla.org/en-US/docs/Web/API/Navigator/deviceMemory">deviceMemory</a>                | ❌ Vulnerable | ✅ Unaffected | ❌ Vulnerable   | ✅ Unaffected   | ✅ Resistant | ❌ Vulnerable | ✅ Unaffected |
+| Font Detection                                                                                                    | ❌ Vulnerable | ✅ Resistant  | ❌ Vulnerable   | ❌ Vulnerable   | ✅ Resistant | ❌ Vulnerable | ✅ Resistant |
+
+Updated Sun, Mar 17, 2024
 
 # Services & Projects
 
@@ -19,3 +28,5 @@ These are various fingerprinting services & projects, and their current effectiv
 | -------------------------------------------------------------- | ------------- | ------------ | -------------- | ------------ | ------------ | ----------- | ------------ |
 | <a href="https://fingerprint.com/demo">Fingerprint</a>         | ⚠️ Trackable  | ⚠️ Trackable | ⚠️ Trackable    | ⚠️ Trackable | ⚠️ Trackable | ⚠️ Trackable | ✅ Resistant |
 | <a href="https://abrahamjuliot.github.io/creepjs/">CreepJS</a> | ⚠️ Trackable  | ✅ Resistant | ⚠️ Trackable    | ⚠️ Trackable | ⚠️ Trackable | ⚠️ Trackable | ✅ Resistant |
+
+Updated Sun, Mar 17, 2024
