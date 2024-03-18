@@ -6,7 +6,7 @@ This repo is a summary of current <a href="https://en.wikipedia.org/wiki/Device_
 
 These are known fingerprinting techniques & each browser's susceptibility to each for tracking purposes. This list is not exhaustive.
 
-|                                                                                                                    | Chrome        | Safari       | Edge           | Firefox       | Brave        | Opera        | Tor / Mullvad |
+| | Chrome | Safari | Edge | Firefox | <a href="https://brave.com/">Brave</a> | Opera | <a href="https://www.torproject.org/">Tor</a> / <a href="https://mullvad.net/en/browser">Mullvad<a> |
 | ------------------------------------------------------------------------------------------------------------------ | ------------- | ------------ | -------------- | ------------- | ------------ | ------------ | ------------ |
 | <a href="https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API">Canvas API</a>                               | ❌ Vulnerable | ✅ Resistant | ❌ Vulnerable   | ✅ Resistant  | ✅ Resistant | ❌ Vulnerable | ✅ Resistant |
 | <a href="https://developer.mozilla.org/en-US/docs/Web/API/OffscreenCanvas">OffscreenCanvas</a>                     | ❌ Vulnerable | ⚠️ <a href="https://github.com/Joe12387/safari-canvas-fingerprinting-exploit">Flawed</a> | ❌ Vulnerable   | ⚠️ <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1885471">Flawed</a> | ✅ Resistant | ❌ Vulnerable | ✅ Resistant |
@@ -29,7 +29,7 @@ Updated Sun, Mar 17, 2024
 
 These are various fingerprinting services & projects, and their current effectiveness towards various browsers.
 
-|                                                                | Chrome        | Safari       | Edge           | Firefox      | Brave        | Opera       | Tor / Mullvad |
+| | Chrome | Safari | Edge | Firefox | <a href="https://brave.com/">Brave</a> | Opera | <a href="https://www.torproject.org/">Tor</a> / <a href="https://mullvad.net/en/browser">Mullvad<a> |
 | -------------------------------------------------------------- | ------------- | ------------ | -------------- | ------------ | ------------ | ----------- | ------------- |
 | <a href="https://fingerprint.com/demo">Fingerprint</a>         | ⚠️ Trackable  | ⚠️ Trackable | ⚠️ Trackable    | ⚠️ Trackable | ⚠️ Trackable | ⚠️ Trackable | ✅ Resistant  |
 | <a href="https://abrahamjuliot.github.io/creepjs/">CreepJS</a> | ⚠️ Trackable  | ✅ Resistant | ⚠️ Trackable    | ⚠️ Trackable | ⚠️ Trackable | ⚠️ Trackable | ✅ Resistant  |
