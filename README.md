@@ -10,13 +10,16 @@ These are known fingerprinting techniques & each browser's susceptibility to eac
 | ------------------------------------------------------------------------------------------------------------------ | ------------- | ------------ | -------------- | ------------- | ------------ | ------------ | ------------ |
 | <a href="https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API">Canvas API</a>                               | ❌ Vulnerable | ✅ Resistant | ❌ Vulnerable   | ✅ Resistant  | ✅ Resistant | ❌ Vulnerable | ✅ Resistant |
 | <a href="https://developer.mozilla.org/en-US/docs/Web/API/OffscreenCanvas">OffscreenCanvas</a>                     | ❌ Vulnerable | ⚠️ <a href="https://github.com/Joe12387/safari-canvas-fingerprinting-exploit">Flawed</a> | ❌ Vulnerable   | ⚠️ <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1885471">Flawed</a> | ✅ Resistant | ❌ Vulnerable | ✅ Resistant |
-| <a href="https://developer.mozilla.org/en-US/docs/Web/API/OfflineAudioContext">OfflineAudioContext</a>             | ❌ Vulnerable |              | ❌ Vulnerable   | ❌ Vulnerable |             | ❌ Vulnerable |  |
+| <a href="https://developer.mozilla.org/en-US/docs/Web/API/AudioContext">AudioContext</a>                           | ❌ Vulnerable | ⚠️ Flawed    | ❌ Vulnerable   | ❌ Vulnerable | ✅ Resistant | ❌ Vulnerable | ✅ Resistant |
+| <a href="https://developer.mozilla.org/en-US/docs/Web/API/OfflineAudioContext">OfflineAudioContext</a>             | ❌ Vulnerable | ⚠️ Flawed    | ❌ Vulnerable   | ❌ Vulnerable | ✅ Resistant | ❌ Vulnerable | ✅ Resistant |
 | <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebGLProgram">WebGLProgram</a>                           | ❌ Vulnerable | ✅ Resistant | ❌ Vulnerable   | ❌ Vulnerable | ✅ Resistant | ❌ Vulnerable | ✅ Resistant |
 | <a href="https://developer.mozilla.org/en-US/docs/Web/API/WEBGL_debug_renderer_info">WEBGL_debug_renderer_info</a> | ❌ Vulnerable | ✅ Resistant | ❌ Vulnerable   | ❌ Vulnerable | ✅ Resistant | ❌ Vulnerable | ✅ Resistant |
 | <a href="https://github.com/brave/brave-browser/issues/24681">Timing Resolution</a>                                | ❌ Vulnerable | ✅ Unaffected | ❌ Vulnerable   | ✅ Unaffected | ✅ Resistant | ❌ Vulnerable | ✅ Unaffected |
 | <a href="https://developer.mozilla.org/en-US/docs/Web/API/Navigator/hardwareConcurrency">hardwareConcurrency</a>  | ❌ Vulnerable | ✅ Resistant | ❌ Vulnerable   | ❌ Vulnerable   | ✅ Resistant | ❌ Vulnerable | ✅ Resistant |
 | <a href="https://developer.mozilla.org/en-US/docs/Web/API/Navigator/deviceMemory">deviceMemory</a>                | ❌ Vulnerable | ✅ Unaffected | ❌ Vulnerable   | ✅ Unaffected   | ✅ Resistant | ❌ Vulnerable | ✅ Unaffected |
 | Font Detection                                                                                                    | ❌ Vulnerable | ✅ Resistant  | ❌ Vulnerable   | ❌ Vulnerable   | ✅ Resistant | ❌ Vulnerable | ✅ Resistant |
+| <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/screen">screen</a>                               | ❌ Vulnerable | ✅ Resistant  | ❌ Vulnerable   | ❌ Vulnerable   | ✅ Resistant | ❌ Vulnerable | ✅ Resistant |
+| <a href="https://developer.mozilla.org/en-US/docs/Web/API/Performance/memory">jsHeapSizeLimit</a>                 | ❌ Vulnerable | ✅ Unaffected | ❌ Vulnerable   | ✅ Unaffected   | ❌ Vulnerable | ❌ Vulnerable | ✅ Unaffected |
 
 Updated Sun, Mar 17, 2024
 
