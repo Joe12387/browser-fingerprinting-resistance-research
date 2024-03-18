@@ -17,8 +17,9 @@ These are known fingerprinting techniques & each browser's susceptibility to eac
 | <a href="https://github.com/brave/brave-browser/issues/24681">Timing Resolution</a>                                | ❌ Vulnerable | ✅ Unaffected | ❌ Vulnerable   | ✅ Unaffected | ✅ Resistant | ❌ Vulnerable | ✅ Unaffected |
 | <a href="https://developer.mozilla.org/en-US/docs/Web/API/Navigator/hardwareConcurrency">hardwareConcurrency</a>  | ❌ Vulnerable | ✅ Resistant | ❌ Vulnerable   | ❌ Vulnerable   | ✅ Resistant | ❌ Vulnerable | ✅ Resistant |
 | <a href="https://developer.mozilla.org/en-US/docs/Web/API/Navigator/deviceMemory">deviceMemory</a>                | ❌ Vulnerable | ✅ Unaffected | ❌ Vulnerable   | ✅ Unaffected   | ✅ Resistant | ❌ Vulnerable | ✅ Unaffected |
+| <a href="https://developer.mozilla.org/en-US/docs/Web/API/Navigator/doNotTrack">doNotTrack</a>                    | ❌ Vulnerable | ✅ Unaffected | ❌ Vulnerable   | ❌ Vulnerable   | ✅ Resistant | ❌ Vulnerable | ✅ Resistant |
 | Font Detection                                                                                                    | ❌ Vulnerable | ✅ Resistant  | ❌ Vulnerable   | ❌ Vulnerable   | ✅ Resistant | ❌ Vulnerable | ✅ Resistant |
-| <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/screen">screen</a>                               | ❌ Vulnerable | ✅ Resistant  | ❌ Vulnerable   | ❌ Vulnerable   | ✅ Resistant | ❌ Vulnerable | ✅ Resistant |
+| <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/screen">screen</a>                               | ❌ Vulnerable | ✅ Resistant  | ❌ Vulnerable   | ❌ Vulnerable   | ❌ Vulnerable | ❌ Vulnerable | ✅ Resistant |
 | <a href="https://developer.mozilla.org/en-US/docs/Web/API/Performance/memory">jsHeapSizeLimit</a>                 | ❌ Vulnerable | ✅ Unaffected | ❌ Vulnerable   | ✅ Unaffected   | ❌ Vulnerable | ❌ Vulnerable | ✅ Unaffected |
 | <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API">WebRTC</a>                                  | ❌ Vulnerable | ❌ Vulnerable | ❌ Vulnerable   | ❌ Vulnerable   | ❌ Vulnerable | ❌ Vulnerable | ✅ Disabled |
 
