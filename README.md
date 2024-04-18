@@ -23,15 +23,16 @@ These are known fingerprinting techniques & each browser's susceptibility to eac
 | <a href="https://developer.mozilla.org/en-US/docs/Web/API/Performance/memory">jsHeapSizeLimit</a>                 | ❌ Vulnerable | ✅ Unaffected | ❌ Vulnerable   | ✅ Unaffected   | ❌ Vulnerable | ❌ Vulnerable | ✅ Unaffected |
 | <a href="https://developer.mozilla.org/en-US/docs/Web/API/WebRTC_API">WebRTC</a>                                  | ❌ Vulnerable | ❌ Vulnerable | ❌ Vulnerable   | ❌ Vulnerable   | ❌ Vulnerable | ❌ Vulnerable | ✅ Disabled |
 
-Updated Sun, Mar 17, 2024
+Updated: Sun, Mar 17, 2024
 
 # Services & Projects
 
 These are various fingerprinting services & projects, and their current effectiveness towards various browsers.
 
 | | Chrome | Safari | Edge | Firefox | <a href="https://brave.com/">Brave</a> | Opera | <a href="https://www.torproject.org/">Tor</a> / <a href="https://mullvad.net/en/browser">Mullvad<a> |
-| -------------------------------------------------------------- | ------------- | ------------ | -------------- | ------------ | ------------ | ----------- | ------------- |
-| <a href="https://fingerprint.com/demo">Fingerprint</a>         | ⚠️ Trackable  | ⚠️ Trackable | ⚠️ Trackable    | ⚠️ Trackable | ⚠️ Trackable | ⚠️ Trackable | ✅ Resistant  |
-| <a href="https://abrahamjuliot.github.io/creepjs/">CreepJS</a> | ⚠️ Trackable  | ✅ Resistant | ⚠️ Trackable    | ⚠️ Trackable | ⚠️ Trackable | ⚠️ Trackable | ✅ Resistant  |
+| --------------------------------------------------------------------- | ------------- | ------------ | ----------- | ------------ | ------------ | ----------- | ------------- |
+| <a href="https://fingerprint.com/demo">Fingerprint</a>                | ⚠️ Trackable  | ⚠️ Trackable | ⚠️ Trackable | ⚠️ Trackable | ⚠️ Trackable | ⚠️ Trackable | ✅ Resistant  |
+| <a href="https://abrahamjuliot.github.io/creepjs/">CreepJS</a>        | ⚠️ Trackable  | ✅ Resistant | ⚠️ Trackable | ⚠️ Trackable | ⚠️ Trackable | ⚠️ Trackable | ✅ Resistant  |
+| <a href="https://www.snowcatcloud.com/fingerprint/">Snowcat Cloud</a> | ⚠️ Trackable  | ⚠️ Trackable | ⚠️ Trackable | ⚠️ Trackable | ⚠️ Trackable | ⚠️ Trackable | ✅ Resistant? |
 
-Updated Sun, Mar 17, 2024
+Updated: Wed, Apr 17, 2024
